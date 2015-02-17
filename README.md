@@ -1,7 +1,7 @@
 # mc-spam
 
 MC-SPAM (Monte-Carlo Synthetic-Photometry/Atmosphere-Model) is an algorithm to generate limb-darkening coefficients 
-from models that are comparable to photometry according to the formalism described in Espinoza & Jordan (2015), 
+from models that are comparable to transit photometry according to the formalism described in Espinoza & Jordan (2015), 
 which improves the original SPAM algorithm proposed by Howarth (2011) by taking in consideration the uncertainty on 
 the stellar and transit parameters of the system under analysis.
 
