@@ -45,13 +45,13 @@ In order to run, the code needs to know the following parameters of a given syst
 
         omega:          The argument of periastron (in degrees).
 
-	Teff:		Effective temperature of the host star (in Kelvins)
+        Teff:		Effective temperature of the host star (in Kelvins)
 
-	logg:		Log-gravity of the host star.
+        logg:		Log-gravity of the host star.
 
-	MH:		Metallicity of the host star (~[Fe/H]).
+        MH:		Metallicity of the host star (~[Fe/H]).
 
-	vturb:		Microturbulent velocity of the host star (in km/s).
+        vturb:		Microturbulent velocity of the host star (in km/s).
 
 
 These parameters can be either be estimated with the associated uncertainties, fixed or 
