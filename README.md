@@ -54,12 +54,13 @@ In order to run, the code needs to know the following parameters of a given syst
         vturb:          Microturbulent velocity of the host star (in km/s).
 
 
-These parameters can be either be estimated with the associated uncertainties, fixed or 
-obtained through an MCMC chain. If you have any data for your system that was estimated 
-by previous works, you must input it under the "estimated_parameters" folder; the 
-"planet_data.dat" stores the parameters of the transit, while "star_data.dat" stores the 
-parameters of the host star (note that the names of both systems must match). If a parameter 
-is fixed by some reason, fix their upper and lower errors to zero. 
+These parameters can be either estimated, in which case you need the associated uncertainties, 
+fixed or obtained through an MCMC chain. If you have any data for your system that was estimated 
+by previous works (or from you and for which you do not have an MCMC chain), you must input it 
+under the "estimated_parameters" folder; the "planet_data.dat" stores the parameters of the transit, 
+while "star_data.dat" stores the parameters of the host star (note that the names of both systems 
+must match; see the files for example inputs). If a parameter is fixed by some reason, fix their 
+upper and lower errors to zero. 
 
 If you want to use an MCMC chain for a given parameter, input any value for that parameter 
 in the above mentioned files and modify the "get_mcspam_vals.py" file in order to input 
