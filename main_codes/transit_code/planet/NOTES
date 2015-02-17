@@ -1,0 +1,15 @@
+This directory will contain a library of functions useful for
+exoplanet science. Its first tasks will be:
+
+1) functions to predict radial velocity curves
+2) a re-implementation of the Mandel & Agol formalism. 
+
+It will also provide Perl/PDL and Python/Numpy interface to the library
+
+For (1) the task is just implementing some formulas, nicely
+summarized in Kane 2007. -- done
+
+General guidelines:
+(a) based on the GNU Scientific Library
+(b) to be released under GSL eventually
+(c) all functions have names starting with pl_ to avoid name clashes

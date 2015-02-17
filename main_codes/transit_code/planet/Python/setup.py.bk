@@ -1,0 +1,12 @@
+
+
+def configuration(parent_package='',top_path=None):
+    from numpy.distutils.misc_util import Configuration
+    config = Configuration('',parent_package,top_path)
+    config.add_extension('ajplanet',sources=['/home/ajordan/devel/planet/Python/ajplanet.pyf', '/home/ajordan/devel/planet/convlib.c','/home/ajordan/devel/planet/true_anomaly.c','/home/ajordan/devel/planet/rv.c','/home/ajordan/devel/planet/orbit.c','/home/ajordan/devel/planet/occultquad.f','/home/ajordan/devel/planet/occultnl.f'],include_dirs=['/home/ajordan/devel/planet/', '/usr/local/include'],library_dirs=['/usr/local/lib'], libraries=['gsl','gslcblas','m'], runtime_library_dirs=['/usr/local/lib','/usr/lib'])
+    return config
+
+if __name__ == "__main__":
+    from numpy.distutils.core import setup
+    setup(**configuration(top_path='').todict())
+

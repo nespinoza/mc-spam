@@ -1,0 +1,1 @@
+f2py -c --fcompiler=gnu95 --f77flags="-ffixed-line-length-none" ajplanet.pyf ../occultquad.f ../occultnl.f ../true_anomaly.c ../convlib.c ../rv.c ../orbit.c -L/usr/local/lib -lgsl -lgslcblas -lm
