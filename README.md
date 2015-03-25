@@ -5,7 +5,7 @@ from models that are comparable to transit photometry according to the formalism
 which improves the original SPAM algorithm proposed by Howarth (2011) by taking in consideration the uncertainty on 
 the stellar and transit parameters of the system under analysis.
 
-If you use this code for your research, please consider citing Espinoza & Jordan (2015).
+If you use this code for your research, please consider citing Espinoza & Jordan (2015; http://arxiv.org/abs/1503.07020).
 
 DEPENDENCIES
 ------------
